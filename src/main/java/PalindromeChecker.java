@@ -41,9 +41,9 @@ public boolean palindrome(String word)
   word = word.toLowerCase();
   //no spaces
   String str = new String ();
-  for (int i = 0; i< Word.length(); i++){
-    if(!Word.substring(i,i+1).equals(" ")){
-      str += Word.substring(i,i+1);
+  for (int i = 0; i< word.length(); i++){
+    if(!word.substring(i,i+1).equals(" ")){
+      str += word.substring(i,i+1);
     }
   }
   word = str;
